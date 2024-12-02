@@ -1,0 +1,130 @@
+install C:\gnuwin32
+
+=
+= Unzipping (and/or updating) packages; also sorting documentation...
+=
+= This will take some time, be patient.
+= Interaction is necessary after the unzipping completes.
+=
+= 5 percent done unzipping / organizing...
+= 10 percent done unzipping / organizing...
+= 15 percent done unzipping / organizing...
+= 20 percent done unzipping / organizing...
+= 25 percent done unzipping / organizing...
+= 30 percent done unzipping / organizing...
+= 35 percent done unzipping / organizing...
+= 40 percent done unzipping / organizing...
+= 45 percent done unzipping / organizing...
+= 50 percent done unzipping / organizing...
+= 55 percent done unzipping / organizing...
+= 60 percent done unzipping / organizing...
+= 65 percent done unzipping / organizing...
+= 70 percent done unzipping / organizing...
+= 75 percent done unzipping / organizing...
+= 80 percent done unzipping / organizing...
+= 85 percent done unzipping / organizing...
+= 90 percent done unzipping / organizing...
+= 95 percent done unzipping / organizing...
+= 100 percent done unzipping / organizing...
+=
+= Unzipping/updating and documentation sorting has completed.
+
+Author's note (Jay Satiro <raysatiro@users.sourceforge.net>) :
+
+Last updated December 26, 2017
+
+WARNING: GnuWin32 has not been updated in several years. I have left this
+script and our GetGnuWin32 downloader functional for legacy purposes. If you
+need the latest packages consider using MSYS2 MINGW or Cygwin instead.
+
+Some of the packages available with the gnuwin32 project are wildly outdated.
+I have compiled more recent builds of the following utilities:
+
+UnZip 6.00, OpenSSL 1.0.2n, Wget 1.12.1-dev, Sort 7.6
+
+Would you like more information? [yes]
+
+
+UnZip 6.00; unzip.exe (2009-04-20) (bugfixes, security fixes)
+^ Suggested replacement for GnuWin32 UnZip 5.51 of May 2004
+
+OpenSSL 1.0.2n; all binary files (2017-12-07) (bugfixes, security fixes)
+^ Suggested replacement for GnuWin32 OpenSSL 0.9.8h of May 2008
+
+Wget 1.12.1-dev; wget.exe (2010-06-23) (bugfixes, security fixes)
+>> No international support, and english help text only.
+>> Built from wget mainline 013c8e2f5997 2010-03-04
+^^ Suggested replacement for GnuWin32 Wget 1.11.4 of Jun 2008
+
+Bundle of CA Root Certificates; cacert.pem (2017-09-20)
+>> Extracted from Mozilla Certificate Authorities list.
+^^ Suggested replacement for <unknown>
+
+Sort 7.6 testbuild; sort-7.6.exe (2009-09-11) (bugfixes)
+>> Properly supports LC_ALL environment variable. Test build.
+^^ Suggested supplement to GnuWin32 Sort 5.3.0 of April 2005
+
+
+Would you like to install these utilities? [yes]
+
+
+Please type the existing directory you want to install to and hit enter.
+["C:\gnuwin32\bin"]
+If it is the directory above that's in brackets, you can just hit enter.
+
+Copied file "sort-7.6.exe"
+Copied file "unzip.exe"
+Copied file "wget.exe"
+Copied file "cacert.pem"
+Copied file "libeay32.dll"
+Copied file "libssl32.dll"
+Copied file "openssl.exe"
+
+Done replacing utilities.
+Done installing supplemental utilities.
+Invocation examples for supplemental utilities:
+
+sort-7.6 --help
+
+! Please note that previous versions of this program installed the latest
+! wget as a supplement (wget-1.12.exe). The latest version of wget now
+! replaces its older version. Invoke it the same as you otherwise would.
+! For example:
+wget --version
+
+Ending supplemental install.
+Press any key to continue . . .
+=
+= Finished with packages. Fixing manifests and info entries...
+=
+
+Updating documentation links!
+Status: Please wait. This may take a long time ...
+        When the process is completed, 'Status: Complete.' will be displayed.
+Status: Searching for orphan links ...
+Status: Deleting orphaned links ...
+Status: Creating new shortcuts ...
+Status: Creating/Maintaining Start menu entries ...
+Status: Creating links to PDFs ...
+Status: Creating links to man pages (.pdf) ...
+Status: Creating links to HTML Help (.chm) files ...
+Status: Creating links to Windows Help (.hlp) files ...
+Status: Complete.
+
+The 'Start Menu' folder has been created in your installation directory.
+This folder contains all links to documentation.
+
+If you move your installation folder, please run the update-links.bat
+*in your installation directory* to refresh your documentation links.
+
+Ending documentation link updater.
+
+
+Optional:
+You can *append* the bin subdir of your installation folder to your PATH:
+i.e. C:\gnuwin32\bin
+There are a few gnu conflicts with Windows utilities, so make sure to *append*.
+That way the windows utilities take priority (i.e. sort).
+*!!!!!! Please read README.txt for more information on your installation !!!!!*
+
+Done installing. yay. Have fun!

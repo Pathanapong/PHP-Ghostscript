@@ -1,0 +1,5 @@
+https://www.ghostscript.com/releases/
+https://ghostscript.com/releases/gsdnld.html
+
+Code:
+cmd >> "gswin32c.exe" -q -dBATCH -dNOPAUSE -sDEVICE=pdfwrite -dPreserveAnnots=false -dAutoRotatePages=/None -sFONTPATH="C:/WINDOWS/Fonts" -sOutputFile="$outPut" -sPDFPassword="$decriptPassword" -f "$srcFile"
