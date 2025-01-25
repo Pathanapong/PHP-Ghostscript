@@ -1,0 +1,5 @@
+https://www.ghostscript.com/releases/
+https://ghostscript.com/releases/gsdnld.html
+
+Code:
+cmd >> "gswin64c.exe" -q -dBATCH -dNOPAUSE -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dPreserveAnnots=false -dAutoRotatePages=/None -sOutputFile="'.$filename.'" -sPDFPassword="'.$password.'" -f "'.$tmp.'"
